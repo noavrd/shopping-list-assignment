@@ -10,4 +10,7 @@ button.onclick = function() {
  let listText = document.createElement("span");
  let secButton = document.createElement("button");
 
+ listItem.appendChild(listText);
+ listItem.appendChild(secButton);
+
 }
