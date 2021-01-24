@@ -3,5 +3,6 @@ let input = document.querySelector("input");
 let button = document.querySelector("button");
 
 button.onclick = function() {
- let inputValue = input.value;   
+ let inputValue = input.value;
+ input.value = "";   
 }
