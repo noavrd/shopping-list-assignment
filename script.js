@@ -19,4 +19,5 @@ button.onclick = function() {
  secButton.onclick = function() {
      ul.removeChild(listItem);
  }
+ input.focus();
 }
