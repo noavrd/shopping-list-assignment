@@ -11,6 +11,8 @@ button.onclick = function() {
  let secButton = document.createElement("button");
 
  listItem.appendChild(listText);
+ listText.textContent = inputValue;
  listItem.appendChild(secButton);
+ secButton.textContent = "delete";
 
 }
