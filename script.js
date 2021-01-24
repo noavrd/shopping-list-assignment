@@ -15,4 +15,8 @@ button.onclick = function() {
  listItem.appendChild(secButton);
  secButton.textContent = "delete";
  ul.appendChild(listItem);
+
+ secButton.onclick = function() {
+     ul.removeChild(listItem);
+ }
 }
